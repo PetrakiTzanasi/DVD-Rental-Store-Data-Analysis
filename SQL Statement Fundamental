@@ -1,4 +1,6 @@
-/* Will send promotion email to all existing customer with first name order*/
+/* These fundamental SQL statements will be applied to the DVD store database to answer various questions and gain insights into the data */
+
+/* Will send promotion email to all existing customer with first name order */
 SELECT first_name,email FROM customer
 ORDER BY first_name ASC
 
