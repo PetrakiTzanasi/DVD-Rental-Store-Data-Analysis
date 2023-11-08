@@ -1,20 +1,21 @@
 /* Using this code to create a table to PostgreSQL */
+
 create table special(
     carer_id serial PRIMARY KEY,
     carer varchar(100) ,
     end_of_life date,
     hsc_two date,
-	  hsc_three date,
+    hsc_three date,
     learning_disabilities date,
-	  aba_pmva_pbs date,
-	  autism date,
-	  challenging date,
-	  food_hygiene date,
-	  dysphagia date,
-	  makaton date,
-	  keep_children date,
-	  children_epilepsy date,
-	  children_safe date
+    aba_pmva_pbs date,
+    autism date,
+    challenging date,
+    food_hygiene date,
+    dysphagia date,
+    makaton date,
+    keep_children date,
+    children_epilepsy date,
+    children_safe date
 )
 
 /* Exported this table to my computer and added data from my file in Excel
